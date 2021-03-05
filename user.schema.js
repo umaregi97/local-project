@@ -1,5 +1,4 @@
 const {Joi} = require('express-validation')
-
 const schema = {
     createUser: Joi.object( {
         firstName: Joi.string().min(2).max(20).required(),

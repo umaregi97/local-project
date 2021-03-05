@@ -48,7 +48,7 @@ let sendMail = async (toMail) => {
     });
 
         let info = await transporter.sendMail({
-            from: '"USER REGISTRATION" <srkarthi1994@gmail.com>', // sender address
+            from: '"USER REGISTRATION" <umaregi97@gmail.com>', // sender address
             to: toMail.email, // list of receivers
             subject: "USER REGISTRATION", // Subject line
             text: "", // plain text body
